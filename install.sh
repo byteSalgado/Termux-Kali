@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 printf "\e[1;31m Hola bienvenido a la instalacion...\n"
 sleep 3
 printf "\e[1;31m Descargaremos todas las herramientas de Kali en termux..\n"
