@@ -1,10 +1,10 @@
 #!/bin/bash
 clear
-printf "\e[1;31m Hola bienvenido a la instalacion...\n"
+printf "\e[1;32m Hola bienvenido a la instalacion...\n"
 sleep 3
-printf "\e[1;31m Descargaremos todas las herramientas de Kali en termux..\n"
+printf "\e[1;32m Descargaremos todas las herramientas de Kali en termux..\n"
 sleep 3
-printf "\e[1;31m Incluiremos algunas de las mas conocidas como:\n"
+printf "\e[1;32m Incluiremos algunas de las mas conocidas como:\n"
 sleep 2
 printf "\e[1;31m Metasploit\n"
 sleep 2
@@ -14,12 +14,12 @@ printf "\e[1;31m FSSociety\n"
 sleep 2
 printf "\e[1;31m y ngrok\n"
 sleep 2
-printf "\e[1;31m Si este instalador te sirve dejanos una estrella en github\n"
+printf "\e[1;32m Si este instalador te sirve dejanos una estrella en github\n"
 sleep 2
-printf "\e[1;31m La instalacion empezara en 5 segundos..\n"
+printf "\e[1;32m La instalacion empezara en 5 segundos..\n"
 sleep 5
 clear
-printf "\e[1;31m Actualiando sistema..\n"
+printf "\e[1;31m Actualizando sistema..\n"
 sleep 3
 clear
 pkg update -y && pkg upgrade -y
